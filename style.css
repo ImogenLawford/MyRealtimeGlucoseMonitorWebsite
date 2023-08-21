@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(170, 170, 219);
+}
+
+.container {
+  display: flex;
+  background-color: rgb(188, 188, 226);
+  justify-content: center;
+  color: rgb(242, 236, 236);
+}
+
+.welcomeText {
+  text-decoration-color: white;
+  font-size: 30px;
+  text-decoration: underline dotted black 6px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.textBox {
+  color: white;
+  margin: auto;
+  margin-top: 30px;
+  padding-left: 140px;
+  padding-right: 140px;
+  justify-content: center;
+}
+.readings {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+#NewBgBtn {
+  color: black;
+  background-color: white;
+  padding: 12px 27px;
+  text-decoration: none;
+}
+.values {
+  padding-left: 30px;
+  background-color: rgb(196, 196, 226);
+  width: 450px;
+  height: 350px;
+  justify-items: center;
+  border: black 2px 2px;
+}
